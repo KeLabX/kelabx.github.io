@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>KeLabX</title>
+    <link>https://kelabx.github.io/</link>
+    <description>Recent content on KeLabX</description>
+    <image>
+      <title>KeLabX</title>
+      <url>https://kelabx.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://kelabx.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.151.0</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 29 Nov 2023 18:28:45 +0800</lastBuildDate>
+    <atom:link href="https://kelabx.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu 非管理员权限安装 OpenCV 与 FFmpeg</title>
+      <link>https://kelabx.github.io/posts/opencv/</link>
+      <pubDate>Wed, 29 Nov 2023 18:28:45 +0800</pubDate>
+      <guid>https://kelabx.github.io/posts/opencv/</guid>
+      <description>&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
+&lt;p&gt;最近在搞一个视频相关的项目，需要用到视频处理库，目前开源的视频工具例如 moviepy，Katna 关键帧抽取库等，都依赖于 OpenCV 的 Python 环境。而 OpenCV 的 Python 库叫 OpenCV-Python，这个库需要依赖原生的 OpenCV 库，因此在使用之前需要先安装 OpenCV，一般的安装方式是使用 Linux 发行版自带的安装工具，例如 apt-get，不过在公共服务器的环境下，普通用户账号是没有权限直接全局安装 OpenCV 的，因此需要把 OpenCV 安装到当前用户路径下，本文采用的方案是从 OpenCV 的源代码开始编译，并指定安装的路径 prefix 来确保安装路径是在当前用户有执行权限的路径中。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
